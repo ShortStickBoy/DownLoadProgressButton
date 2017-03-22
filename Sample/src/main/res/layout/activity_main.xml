@@ -14,6 +14,7 @@
         android:layout_height="50dp"
         app:border_color="#3262DE"
         app:border_width="1px"
+        app:button_radius="10"
         app:finish_background_color="#3262DE"
         app:finish_text_color="@android:color/white"
         app:finish_text_image="@drawable/read"
@@ -24,7 +25,6 @@
         app:process_lower_text_color="#FF0000"
         app:process_upper_background_color="#E5F2FA"
         app:process_upper_text_color="#3262DE"
-        app:radius="10"
         app:text_image_margin="10"
         app:text_size="17sp" />
 
