@@ -407,9 +407,12 @@ public class DownLoadProgressButton extends AppCompatTextView {
     }
 
     public void setProgress(float progress) {
-        if (progress <= mMinProgress || progress <= mToProgress || getState() == FINISH) {
+        if (progress < mMinProgress || progress <= mToProgress || getState() == FINISH) {
             return;
         }
+//        if (progress <= mMinProgress || progress <= mToProgress || getState() == FINISH) {
+//            return;
+//        }
 //        if (getState() == FINISH) {
 //            return;
 //        }
