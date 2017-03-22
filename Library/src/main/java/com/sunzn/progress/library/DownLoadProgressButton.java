@@ -119,7 +119,7 @@ public class DownLoadProgressButton extends AppCompatTextView {
     private void initAttrs(Context context, AttributeSet attrs) {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.DownloadProgressButton);
         mTextSize = a.getDimension(R.styleable.DownloadProgressButton_text_size, 10);
-        mButtonRadius = a.getFloat(R.styleable.DownloadProgressButton_radius, getMeasuredHeight() / 2);
+        mButtonRadius = a.getFloat(R.styleable.DownloadProgressButton_button_radius, getMeasuredHeight() / 2);
         mAnimationDuration = a.getInt(R.styleable.DownloadProgressButton_animation_duration, 500);
 
         mBorderColor = a.getColor(R.styleable.DownloadProgressButton_border_color, Color.parseColor("#6699ff"));

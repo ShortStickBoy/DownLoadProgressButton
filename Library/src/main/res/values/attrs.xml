@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="DownloadProgressButton">
-        <attr name="radius" format="float" />
+        <attr name="button_radius" format="float" />
         <attr name="text_size" format="dimension" />
         <attr name="border_color" format="color" />
         <attr name="border_width" format="dimension" />
