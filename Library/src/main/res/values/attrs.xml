@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DownloadProgressButton">
+        <attr name="radius" format="float" />
+        <attr name="text_size" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_width" format="dimension" />
+        <attr name="text_image_margin" format="integer" />
+        <attr name="animation_duration" format="integer" />
+        <attr name="launch_text_color" format="color" />
+        <attr name="launch_text_image" format="reference" />
+        <attr name="launch_background_color" format="color" />
+        <attr name="finish_text_color" format="color" />
+        <attr name="finish_text_image" format="reference" />
+        <attr name="finish_background_color" format="color" />
+        <attr name="process_lower_text_color" format="color" />
+        <attr name="process_upper_text_color" format="color" />
+        <attr name="process_upper_background_color" format="color" />
+        <attr name="process_lower_background_color" format="color" />
+        <attr name="text_normal" format="string" />
+        <attr name="text_downing" format="string" />
+        <attr name="text_pause" format="string" />
+        <attr name="text_finish" format="string" />
+    </declare-styleable>
+</resources>

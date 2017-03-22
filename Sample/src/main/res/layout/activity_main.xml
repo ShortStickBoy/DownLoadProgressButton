@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.sunzn.progress.sample.MainActivity">
+
+    <com.sunzn.progress.library.DownLoadProgressButton
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:border_color="#3262DE"
+        app:border_width="1px"
+        app:finish_background_color="#3262DE"
+        app:finish_text_color="@android:color/white"
+        app:finish_text_image="@drawable/read"
+        app:launch_background_color="#F1FAFF"
+        app:launch_text_color="#3262DE"
+        app:launch_text_image="@drawable/down"
+        app:process_lower_background_color="#F1FAFF"
+        app:process_lower_text_color="#FF0000"
+        app:process_upper_background_color="#E5F2FA"
+        app:process_upper_text_color="#3262DE"
+        app:radius="10"
+        app:text_image_margin="10"
+        app:text_size="17sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset" />
+
+</LinearLayout>
