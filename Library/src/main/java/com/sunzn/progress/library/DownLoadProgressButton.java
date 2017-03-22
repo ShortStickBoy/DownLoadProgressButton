@@ -198,8 +198,8 @@ public class DownLoadProgressButton extends AppCompatTextView {
                 }
                 if (getState() == NORMAL) {
                     mOnDownLoadClickListener.clickDownload();
-                    setState(DOWNLOADING);
-                    setProgressText(0);
+//                    setState(DOWNLOADING);
+//                    setProgressText(0);
                 } else if (getState() == DOWNLOADING) {
                     if (mEnablePause) {
                         mOnDownLoadClickListener.clickPause();
